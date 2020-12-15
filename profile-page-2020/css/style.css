@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "reset.css";
+@import "components/nav-bar.css";
+@import "index.css";
+@import "components/page-main.css";
+@import "components/list.css";
+
+html {
+  height: 1000vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-main {
+  width: 280px;
+  height: 590px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 20px 10px #faddd2;
+}
